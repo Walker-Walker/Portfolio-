@@ -5,6 +5,7 @@
 }
 
 body {
+    background-color:black;
     color:aquamarine;
     font-family: monospace;
 }
@@ -52,3 +53,24 @@ header nav ul li a:hover {
     text-shadow:none;
 }
 
+.hero-container {
+    display:grid;
+    /* grid-template-rows:repeat(2,5fr); */
+    
+}
+
+.hero-img {
+    background-image:url("../images/hero.jpg");
+    background-position:center;
+    background-size:cover;
+    height:50vh;
+}
+.subtitle {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:end;
+    color:white;
+    size:50px;
+    
+}

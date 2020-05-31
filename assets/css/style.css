@@ -58,21 +58,118 @@ header nav ul li a:hover {
     display:grid;
     grid-template-columns:repeat(12,1fr);
     grid-auto-rows:minmax(100%,1fr);
-    grid-gap: 3px;
+    grid-gap: 20px;
 }
-
+/* 
 .grid-item {
     grid-column: span 4;
     grid-row: span 2;
     border:2px dashed black;
-}
+    background-color:aquamarine;
+} */
 
-.hero {
+.hero {                  /*hero img and text overlay*/
     grid-column:span 12;
-    grid-row: span 4;
+    grid-row: span 2;
+    border: 2px dashed black;
 }
 
+.about-me {
+    grid-column: span 2;
+    grid-row: span 2;
+    /* position: relative; */
+    border: 2px dashed black;
+}
 
+/* . the text "about me {
+    height:100px;
+    width:100px;
+    background-color: white;
+    position: absolute;
+    top:50px;
+    left:50px;
+} */
+
+.about-me-content {
+    grid-column: span 10;
+    grid-row: span 2;
+    border: 2px dashed black;
+}
+
+.work {
+    grid-column:span 2;
+    grid-row:span 3;
+    border: 2px dashed black;
+}
+
+.placeholder-1 {
+    grid-column: span 6;
+    grid-row: span 2;
+    border: 2px dashed black
+}
+
+.placeholder-2 {
+    grid-column: span 3;
+    grid-row: span 1;
+    border: 2px dashed black;
+}
+
+.placeholder-3 {
+    grid-column:span 3;
+    grid-row: span 1;
+    border: 2px dashed black;
+}
+
+.placeholder-4 {
+    grid-column:span 3;
+    grid-row: span 1;
+    border: 2px dashed black;
+}
+
+.placeholder-5 {
+    grid-column:span 3;
+    grid-row: span 1;
+    border: 2px dashed black;
+}
+/* .work {
+    grid-column: span 2;
+    grid-row: span 4;
+} */
+
+/* .img-1 {
+    grid-column: span 4;
+    grid-row: span 2;
+}
+
+.img-2 {
+    grid-column: span 4;
+    grid-row: span 1;
+}
+
+.img-3 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.img-4 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.img-5 {
+    grid-column: span 2;
+    grid-row: span 1;
+} */
+
+/* .contact-me {
+    grid-column: span 2;
+    grid-row: span 2;
+} */
+
+/* .contact-me-content {
+    grid-column:span 8;
+    grid-row: span 2;
+} */
 
 /* .hero-img {
     background-image:url("../images/hero.jpg");

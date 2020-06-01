@@ -19,4 +19,4 @@
 * https://github.com/Walker-Walker/challenge-2.git
 
 
-![webpage screenshot](./assets/images/Portfolio-Walker.jpg)
+![webpage screenshot](./assets/images/screenshot.JPG)

@@ -5,7 +5,6 @@
 }
 
 body {
-    background-color:white;
     color:black;
     font-family: 'Courier New', Courier, monospace;
     background-color:grey;
@@ -58,7 +57,7 @@ header nav ul li a:hover {
 .grid-container {
     display:grid;
     grid-template-columns:repeat(11,1fr);
-    grid-auto-rows:minmax(100%,1fr);
+    grid-auto-rows:minmax(25%,1fr);
     grid-gap: 20px;
 }
 
@@ -66,8 +65,8 @@ header nav ul li a:hover {
 .hero {                 
     grid-column:span 12;
     grid-row: span 2;
-    border: 2px dashed black;
-  
+    /* border: 2px dashed black; */
+    
 }
 
 .hero-img {
@@ -81,7 +80,7 @@ header nav ul li a:hover {
     font-size:25px;
     font-weight:bold;
     position:absolute;
-    top:550px;
+    top:450px;
     left:1600px;
     background-color:gray;
 }
@@ -89,7 +88,7 @@ header nav ul li a:hover {
 .about-me {
     grid-column: span 2;
     grid-row: span 2;
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
 }
 
 .about-me-title {
@@ -105,21 +104,22 @@ header nav ul li a:hover {
 .about-me-content-box {
     grid-column: span 10;
     grid-row: span 2;
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
+    position:relative;
 }
 .about-me-text-content {
-    height:50%;
-    width:75%;
     display: flex;
     align-items:center;
     justify-content:space-around;
     font-size:24px;
+    padding-top:100px;
+    position:absolute;
     
 } 
 .work {
     grid-column:span 2;
     grid-row:span 3;
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
 }
 
 .work-title {
@@ -134,7 +134,7 @@ header nav ul li a:hover {
 .placeholder-1 {
     grid-column: span 6;
     grid-row: span 2;
-    border: 2px dashed black
+    /* border: 2px dashed black */
 }
 
 .placeholder-img-1 {
@@ -143,6 +143,8 @@ header nav ul li a:hover {
     position:relative;
     height:100%;
     width:100%;
+    /* border-style:solid;
+    border-color:white; */
 }
 
 /* .placeholder-img-1-text {
@@ -153,50 +155,109 @@ header nav ul li a:hover {
 .placeholder-2 {
     grid-column: span 3;
     grid-row: span 1;
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
 }
+
+.placeholder-img-2 {
+    background-image: url("../images/placeholder-2.jpg");
+    background-size: cover;
+    position:relative;
+    height:100%;
+    width:100%;
+}
+
+/* .placeholder-img-2-text {
+    
+    position:absolute;
+} */
 
 .placeholder-3 {
     grid-column:span 3;
     grid-row: span 1;
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
 }
 
+.placeholder-img-3 {
+    background-image: url("../images/placeholder-3.jpg");
+    background-size: cover;
+    position:relative;
+    height:100%;
+    width:100%;
+}
+
+/* .placeholder-img-3-text {
+
+    position:absolute;
+} */
 .placeholder-4 {
     grid-column:span 3;
     grid-row: span 1;
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
 }
 
+.placeholder-img-4 {
+    background-image: url("../images/placeholder-4.png");
+    background-size: cover;
+    position:relative;
+    height:100%;
+    width:100%;
+}
+
+/* .placeholder-img-4-text {
+
+    position:absolute;
+} */
 .placeholder-5 {
     grid-column:span 6;
     grid-row: span 1;
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
 }
 
+.placeholder-img-5 {
+    background-image: url("../images/placeholder-5.jpg");
+    background-size: cover;
+    position:relative;
+    height:100%;
+    width:49%;
+}
+
+/* .placeholder-img-5-text {
+    
+    position:relative;
+} */
 .contact-me {
     grid-column: span 2;
     grid-row: span 1;
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
 }
 
-.contact-me-content {
-    grid-column: span 7;
-    grid-row: span 1;
-    border: 2px dashed black;
-}
-
-/* .hero-img {
-    background-image:url("../images/hero.jpg");
-    background-position:center;
-    background-size:cover;
-    height:50vh;
-}
-.subtitle {
+.contact-title {
     display:flex;
-    align-items:center;
-    justify-content:center;
-     flex-direction:end;
-    color:white;
-    size:50px;
+    align-items: center;
+    justify-content:column;
+    font-size:50px;
+    font-weight:bold;
+    font-family: 'Courier New', Courier, monospace;
     
+}
+.contact-me-content-box {
+    grid-column: span 9;
+    grid-row: span 1;
+    /* border: 2px dashed black; */
+}
+
+.contact-me-text-content ul {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 44px 45px;
+    list-style:none; 
+}
+
+.contact-me-text-content ul li p {
+    font-weight: bold;
+    font-size:20px;  
+    text-decoration:underline;
+}
+

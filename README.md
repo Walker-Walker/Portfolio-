@@ -13,7 +13,7 @@
 
 
 ## Link to Portfolio 
-* https://walker-walker.github.io/challenge-2/
+* https://walker-walker.github.io/Portfolio-/
 
 ## Link to Github Repo
 * https://github.com/Walker-Walker/challenge-2.git
